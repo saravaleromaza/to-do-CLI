@@ -5,10 +5,10 @@ public class Task {
     private String descripcion;
     private boolean completado;
 
-    public Task(int id, String title, String description) {
+    public Task(int id, String tarea, String descripcion) {
         this.id = id;
-        this.tarea = title;
-        this.descripcion = description;
+        this.tarea = tarea;
+        this.descripcion = descripcion;
         this.completado = false; //la tarea por defecto no comienza no completada
     }
 
