@@ -17,4 +17,16 @@ import java.util.List;
             tasks.add(newTask);
             System.out.println("¡Tarea añadida con éxito!");
         }
+
+        // Método para listar todas las tareas
+        public void listTasks() {
+            if (tasks.isEmpty()) {
+                System.out.println("No hay tareas registradas todavía.");
+            } else {
+                System.out.println("\n--- LISTA DE TAREAS ---");
+                for (Task t : tasks) {
+                    System.out.println(t);
+                }
+            }
+        }
     }
